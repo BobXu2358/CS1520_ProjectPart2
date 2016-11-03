@@ -1,0 +1,53 @@
+body {
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  background-image: url("../image/index-pic.png");
+  background-size: 100%, 100%;
+}
+
+h1 {
+  color: mediumslateblue;
+  text-align: center;
+}
+
+.menu_box {
+  display: block;
+  margin: 20px;
+}
+
+.menu_button {
+  font-family: "Open Sans", Arial, sans-serif;
+  display: block;
+  color: white;
+  font-size: 25px;
+  vertical-align: middle;
+  background-color: seagreen;
+  text-decoration-color: white;
+  text-decoration: none;
+  text-align: center;
+  height: 35px;
+  width: 150px;
+  border: 2px solid transparent;
+  border-radius:15px;
+  padding: 15px;
+  transition: all 0.5s ease 0s;
+}
+
+.menu_button:hover {
+  background-color: inherit;
+  border: 2px solid white;
+}
+#menu1 {
+  margin-left: 15%;
+}
+
+#menu2 {
+  margin-left: 25%;
+}
+
+#menu3 {
+  margin-left: 35%;
+}
+
+#menu4 {
+  margin-left: 45%
+}
