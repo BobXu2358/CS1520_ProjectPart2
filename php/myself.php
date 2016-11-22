@@ -1,11 +1,12 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang='en'>
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Xinhai's Site</title>
-  <link href="css/bootstrap.min.css" rel="stylesheet"/>
-  <link href="css/index_style.css" rel="stylesheet"/>
+  <link href="../css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../css/general_style.css" rel="stylesheet"/>
 </head>
 
 <body>
@@ -37,17 +38,15 @@
       </div>
     </div>
   </nav>
-
-  <div class="jumbotron" style="background: #272F32;">
-    <div class="container" style="color: lavender">
-      <h1 style="text-align: center;">Welcome</h1>
-      <p style="text-align: center;">This is my site. You can learn a lot about me here.</p>
-      <br>
-      <p style="margin: auto"><a class="btn btn-primary btn-lg menu_button" href="php/myself.php" role="button">Enter</a>
-    </div>
-  </div>
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-</body>
+  <body>
+    <h1>About Me</h1>
+    <p>
+      My name is Xinhai Xu. I am a senior undergraduate student in University of Pittsburgh major in Computer Science.
+      I am an international student originally from China. Although I am not a native English speaker, the four-year study
+      in the U.S. has made my English fluent. <br/> I learned some skills from school including JAVA, C, PHP (learning),
+      JavaScript(learning), HTML and Android. Besides that, I am a huge fan of video games, especially in designing and
+      developing them. Although there is no more courses about gaming in my school department by the time I became a CS student,
+      I have some Unity3D experience and played around with Cocos2d-X engine a little bit basically through self-study.
+    </p>
+  </body>
 </html>
