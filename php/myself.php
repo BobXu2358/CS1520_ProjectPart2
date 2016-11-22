@@ -19,34 +19,68 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">Xinhai's Site</a>
+        <a class="navbar-brand" href="../index.php">Xinhai's Site</a>
       </div>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="/php/myself.php">About Me</a></li>
+          <li><a href="../php/myself.php">About Me</a></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">My Hometown<span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="#">Where is it</a></li>
+              <li><a href="../php/place.php">Where is it</a></li>
               <li><a href="#">How does it look like</a></li>
               <li><a href="#">Why I love it</a></li>
             </ul>
           </li>
-          <li><a href="php/portfolio.php">Demos</a></li>
-          <li><a href="php/form.php">Contact</a></li>
+          <li><a href="../php/portfolio.php">Demos</a></li>
+          <li><a href="../php/form.php">Contact</a></li>
         </ul>
       </div>
     </div>
   </nav>
-  <body>
-    <h1>About Me</h1>
-    <p>
-      My name is Xinhai Xu. I am a senior undergraduate student in University of Pittsburgh major in Computer Science.
-      I am an international student originally from China. Although I am not a native English speaker, the four-year study
-      in the U.S. has made my English fluent. <br/> I learned some skills from school including JAVA, C, PHP (learning),
-      JavaScript(learning), HTML and Android. Besides that, I am a huge fan of video games, especially in designing and
-      developing them. Although there is no more courses about gaming in my school department by the time I became a CS student,
-      I have some Unity3D experience and played around with Cocos2d-X engine a little bit basically through self-study.
-    </p>
-  </body>
+  <div class="container" style="color: lavender;">
+    <h2 style="text-align: center;">About Me</h2>
+    <ul class="self_list">
+      <li>
+        <h3>A brief introduction</h3>
+        <p>My name is Xinhai Xu. I am a senior undergraduate student in University of Pittsburgh major in Computer Science.
+          I am an international student originally from China.
+      </li>
+      <li>
+        <h3>Professional Skills</h3>
+        <p>During my college study, I learned the following as a CS student at Pitt<br></p>
+        <ul>
+          <li>JAVA</li>
+          <li>C</li>
+          <li>Web(PHP, HTML, JS, MySQL)</li>
+          <li>Mobile dev on Android platform</li>
+          <li>Software engineering</li>
+          <li>Software quality assurance</li>
+        </ul>
+      </li>
+      <li>
+        <h3>Interest based skills</h3>
+        <p>I am a big fan of video games,especially in designing and developing them. Although there is no more courses
+          about gaming in my school department by the time I became a CS student,I have some experience with Unity engine
+          and played around with Cocos2d-X engine a little bit basically through self-study.<br>
+          Some demo games are made and you can play them in the demo section in this website.<br>
+        </p>
+        <ul>
+          <li>Unity 3D & 2D</li>
+          <li>Cocos2d-X</li>
+        </ul>
+      </li>
+      <li>
+        <h3>Languages(not programming languages)</h3>
+        <ul>
+          <li>English</li>
+          <li>Mandarin</li>
+          <li>Japanese (not as good as above two)</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+</body>
 </html>

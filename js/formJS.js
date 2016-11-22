@@ -9,7 +9,7 @@ function submitForm() {
     alert("Please leave a message!");
   }
   else {
-    window.location.href = 'mailto:nicola@mio.it';
+    window.location.href = 'mailto:xix35@pitt.edu';
     document.getElementById("submit_message").innerHTML = "Thank you! I will get back to you soon."
   }
 }

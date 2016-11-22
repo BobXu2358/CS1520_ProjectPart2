@@ -3,7 +3,7 @@ body {
   background-color: #272F32;
 }
 
-h1 {
+h2 {
   color: mediumslateblue;
   text-align: center;
 }
@@ -19,21 +19,28 @@ h1 {
 }
 
 .menu_button {
-  padding: 15px 10px;
-  font-family: "Open Sans", Arial, sans-serif;
   display: block;
   color: white;
-  font-size: 10px;
-  vertical-align: middle;
   background-color: seagreen;
   text-decoration-color: white;
   text-decoration: none;
-  text-align: center;
-  height: 5px;
-  width: 90px;
   border: 2px solid transparent;
   border-radius:15px;
   transition: all 0.5s ease 0s;
+  width: 100px;
+  margin: auto;
+}
+
+form button {
+  display: block;
+  color: white;
+  background-color: seagreen;
+  text-decoration-color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  border-radius:15px;
+  transition: all 0.5s ease 0s;
+  width: 100px;
 }
 
 .menu_button:hover {
@@ -41,12 +48,14 @@ h1 {
   border: 2px solid white;
 }
 
+form button:hover {
+  background-color: inherit;
+  border: 2px solid white;
+}
+
 p {
   color: lavender;
-  font-size: 20px;
-  margin: 40px auto auto;
-  width: 70%;
-  text-indent: 30px;
+  font-size: 16px;
   line-height: 200%;
 }
 
@@ -54,11 +63,6 @@ p > img {
   margin-left: 100px;
   height: 300px;
   width: 500px;
-}
-
-.gamelist {
-  margin-top: 50px;
-  margin-left: 220px;
 }
 
 fieldset {
